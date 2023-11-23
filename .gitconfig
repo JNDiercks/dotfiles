@@ -1,5 +1,7 @@
 [init]
-  defaultBranch = main
+        defaultBranch = main
 [user]
 	name = Jan Niklas Diercks
 	email = janniklas.diercks@gmail.com 
+[core]
+	excludesfile = /Users/janniklasdiercks/.config/git/ignore
