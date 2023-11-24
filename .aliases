@@ -1,0 +1,28 @@
+## navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+alias dh="cd ~"
+alias dod="cd ~/Onedrive"
+alias dl="cd ~/Downloads"
+alias dotfiles="cd ~/dotfiles"
+
+# reload and edit
+alias ezsh="vim ~/.zshrc"
+alias rzsh="source ~/.zshrc"
+
+# x86 program aliases
+alias brow='/usr/local/bin/brew'
+alias python86='/usr/local/opt/python@3.8/bin/python3'
+alias pip86='/usr/local/opt/python@3.8/bin/pip3'
+
+alias wetter='curl http://v1.wttr.in/Stade'
+
+# Get week number
+alias week='date +%V'
+
+# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g;'

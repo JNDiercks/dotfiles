@@ -106,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+[ -f ~/.aliases ] && source ~/.aliases
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -116,13 +117,8 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 #paths added:
 export PATH=$PATH:/Users/janniklasdiercks/Library/Python/3.8/bin
 
-alias brow='/usr/local/bin/brew'
-alias python86='/usr/local/opt/python@3.8/bin/python3'
-alias pip86='/usr/local/opt/python@3.8/bin/pip3'
-
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
-alias wetter='curl http://v1.wttr.in/Stade'
 export VISUAL=/usr/bin/vim
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
