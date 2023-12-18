@@ -9,6 +9,7 @@ alias dh="cd ~"
 alias dod="cd ~/Onedrive"
 alias dl="cd ~/Downloads"
 alias dotfiles="cd ~/dotfiles"
+alias repos="cd ~/repos/"
 
 # reload and edit
 alias ezsh="vim ~/.zshrc"
